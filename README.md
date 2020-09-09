@@ -1,6 +1,6 @@
 Simple React App to find a Gif from the Giphy-Api
 
-##Setup
+## Setup
 
 ```bash
 git clone git@github.com:maniekcr/react-giphy.git
