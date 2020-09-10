@@ -7,6 +7,10 @@ class Gif extends Component {
     }
   }
 
+  shouldComponentUpdate(nextProps) {
+    return nextProps.id !== this.props.id;
+  }
+
   render() {
     if (!this.props.id) {
       return null;
