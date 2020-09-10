@@ -21,6 +21,7 @@ class App extends Component {
       rating: 'g',
       limit: 25
     }, (err, res) => {
+      console.log(res);
       this.setState({
         gifs: res.data
       });
